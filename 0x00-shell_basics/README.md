@@ -7,7 +7,7 @@ This directory contains the following scripts:
 4-listmorefiles - Script prints the current directory's contents, including hidden content, in the long format (ls -a -l)  
 5-listfilesdigitonly - Script prints prints the current directory's contents, including hidden content, in the long format, with user and group IDs displayed numerically (ls -l -n -a)  
 6-firstdirectory - Script creates a new directroy (my_first_directory) in the directory 'tmp' (mkdir /tmp/my_first_directory)  
-7-movethatfile - Script prints  
+7-movethatfile - Script is moves the file 'betty' from the directory 'tmp' to 'tmp/my_first_directory' (mv /tmp/betty /tmp/my_first_directory) 
 8-firstdelete - Script prints  
 9-firstdirdeletion - Script prints  
 10-back - Script prints  

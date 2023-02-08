@@ -10,7 +10,7 @@ This directory contains the following scripts:
 7-movethatfile - Script is moves the file 'betty' from the directory 'tmp' to 'tmp/my_first_directory' (mv /tmp/betty /tmp/my_first_directory)  
 8-firstdelete - Script deletes the file 'betty' from the directory 'tmp/my_first_directory' (rm /tmp/my_first_directory/betty)  
 9-firstdirdeletion - Script deletes the directory 'my_first_directory' (rm -r /tmp/my_first_directory)  
-10-back - Script prints  
+10-back - Script changes the working directory to the previous one (cd -)  
 11-lists - Script prints  
 12-file_type - Script prints  
 13-symbolic_link - Script prints  

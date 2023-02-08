@@ -4,7 +4,7 @@ This directory contains the following scripts:
 1-listit - Script prints the contents of the current directory (ls)  
 2-bring_me_home - Script returns user to their designated home directory (cd ~)  
 3-listfiles - Script prints the current directory's contents in the long format (ls -l)  
-4-listmorefiles - Script prints  
+4-listmorefiles - Script prints the current directory's contents, including hidden content, in the long format (ls -a -l)  
 5-listfilesdigitonly - Script prints  
 6-firstdirectory - Script prints  
 7-movethatfile - Script prints  

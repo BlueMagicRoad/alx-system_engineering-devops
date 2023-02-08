@@ -14,4 +14,4 @@ This directory contains the following scripts:
 11-lists - Script prints all files, including hidden files, in the long format, in the order of current directory, parent directory and 'boot' (ls -a -l . .. /boot)  
 12-file_type - Script checks the file type of the file 'iamafile' in the directory 'tmp' (file /tmp/iamafile)  
 13-symbolic_link - Script creates a symlink called --ls-- for '/bin/ls' (ln -s /bin/ls --ls--)  
-14-copy_html - Script prints  
+14-copy_html - Script copies all '.html' files from the current directory to the parent directory (cp -n -u *.html ../)  

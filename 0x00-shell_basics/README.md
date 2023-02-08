@@ -13,5 +13,5 @@ This directory contains the following scripts:
 10-back - Script changes the working directory to the previous one (cd -)  
 11-lists - Script prints all files, including hidden files, in the long format, in the order of current directory, parent directory and 'boot' (ls -a -l . .. /boot)  
 12-file_type - Script checks the file type of the file 'iamafile' in the directory 'tmp' (file /tmp/iamafile)  
-13-symbolic_link - Script prints  
+13-symbolic_link - Script creates a symlink called __ls__ for '/bin/ls' (ln -s /bin/ls __ls__)  
 14-copy_html - Script prints  

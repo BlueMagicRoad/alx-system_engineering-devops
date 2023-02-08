@@ -12,6 +12,6 @@ This directory contains the following scripts:
 9-firstdirdeletion - Script deletes the directory 'my_first_directory' (rm -r /tmp/my_first_directory)  
 10-back - Script changes the working directory to the previous one (cd -)  
 11-lists - Script prints all files, including hidden files, in the long format, in the order of current directory, parent directory and 'boot' (ls -a -l . .. /boot)  
-12-file_type - Script prints  
+12-file_type - Script checks the file type of the file 'iamafile' in the directory 'tmp' (file /tmp/iamafile)  
 13-symbolic_link - Script prints  
 14-copy_html - Script prints  

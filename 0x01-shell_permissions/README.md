@@ -1,1 +1,16 @@
-This project contains the following scripts: 
+This project contains the following scripts:  
+  
+0-iam_betty - Script changes the user identity to Betty (su betty)  
+1-whoami - Script prints the effective user-id of the current user (id -un)  
+2-groups - Script prints a list of all the groups that the current user is in (id -Gn)  
+3-new_owner - Script changes the owner of the file 'hello' to the user 'betty' (chown betty hello)  
+4-empty - Script create the empty file 'hello' (touch hello)  
+5-execute - Script adds execute permission to the onwer of the file 'hello' (chmod u+x hello)  
+6-multiple_permissions - Script adds execute permission to the onwer and group owner of the file 'hello', while also adding read permissions for all other users (chmod ug+x,o+r hello)  
+7-everybody - Script adds execution permission for all user of the file 'hello' (chmod ugo+x hello)  
+8-James_Bond - Script removes all permissions for the owner and group owner of the file 'hello', while giving all permissions to all other users (chmod 007 hello)  
+9-John_Doe - Script sets the 'hello' files permissions such that the onwer has all permissions, the group has read and execute permissions, and all other users have write and execute permissions (chmod 753 hello)  
+10-mirror_permissions - Script copies the mode and permissions of the file 'elloh' to the target file 'hello' (chmod --reference=olleh hello)  
+11-directories_permissions - Script adds execute permission to everyone, for all the directories in the current directory (chmod -R +X)  
+12-directory_permissions - Script creates the directory 'my_dir' with its permissions set to 751 (mkdir -m 751 my_dir)  
+13-change_group - Script chnages the group owner of the file 'hello' to 'school' (chgrp school hello)

@@ -1,11 +1,11 @@
 The following scripts were generated as answers to the shell redirection project:  
-0-hello_world - Script prints "Hello, World" (echo 'Hello, World')  
-1-confused_smiley - Script prints "(Ôo)' (echo "\"(Ôo)'")  
-2-hellofile - Script prints the contents of the file 'passwd' (cat /etc/passwd)  
-4-lastlines -  
-5-firstlines -  
-6-third_line -  
-7-file -  
+0-hello_world - Script prints "Hello, World"  
+1-confused_smiley - Script prints  
+2-hellofile - Script prints the contents of the file 'passwd'  
+4-lastlines - Script prints the last 10 lines of the file 'passwd'  
+5-firstlines - Script prints the first 10 lines of the file 'passwd' 
+6-third_line - Script prints the third line of the file 'iacta' 
+7-file - Script creates a file called \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) , containing the text'Best School'  
 8-cwd_state -  
 9-duplicate_last_line -  
 10-no_more_js -  

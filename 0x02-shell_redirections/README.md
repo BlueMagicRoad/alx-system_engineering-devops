@@ -8,7 +8,7 @@ The following scripts were generated as answers to the shell redirection project
 7-file - Script creates a file called \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) ,* containing the text 'Best School'  
 8-cwd_state - Script adds the output of the command 'ls -la' to the file 'ls_cwd_content'  
 9-duplicate_last_line - Script duplicates the last line of the file 'iacta'  
-10-no_more_js -  
+10-no_more_js - Script deletes all files, except directories, ending with '.js' in the current directory and its subfolders  
 11-directories -  
 12-newest_files -  
 13-unique -  

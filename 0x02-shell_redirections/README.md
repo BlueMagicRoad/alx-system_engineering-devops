@@ -23,3 +23,7 @@ The following scripts were generated as answers to the shell redirection project
 22-users_and_homes  
   
 The optional task scripts are:  
+100-empty_casks  
+101-gifs  
+102-acrostic  
+103-the_biggest_fan

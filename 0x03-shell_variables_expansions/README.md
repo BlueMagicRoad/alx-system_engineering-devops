@@ -15,3 +15,7 @@ Directory contains the following scripts for the Shell, init files, variables an
 13-print_float  
   
 The following scritps are also available, as part of the optional tasks:  
+100-decimal_to_hexadecimal  
+101-rot13  
+102-odd  
+103-water_and_stir  
